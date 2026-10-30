@@ -1,0 +1,117 @@
+{
+  "name": "@justinjd00/deadlock-sdk",
+  "version": "1.0.0",
+  "description": "The TypeScript SDK for Deadlock (Valve). All 132 Deadlock API endpoints fully typed, plus player summaries, scoreboards, confidence-based tier lists, counters, SteamID tools, rank decoding, fuzzy search, React hooks and a CLI. Zero dependencies.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./react": {
+      "import": {
+        "types": "./dist/react.d.ts",
+        "default": "./dist/react.js"
+      },
+      "require": {
+        "types": "./dist/react.d.cts",
+        "default": "./dist/react.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "deadlock": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:contract": "CONTRACT=1 vitest run",
+    "prepublishOnly": "npm run build",
+    "check:publish": "node scripts/check-publish.mjs",
+    "check:package": "publint && attw --pack . --profile node16",
+    "generate": "node scripts/generate.mjs",
+    "check:schema": "node scripts/generate.mjs --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinjd00/deadlock-sdk.git"
+  },
+  "homepage": "https://github.com/justinjd00/deadlock-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/justinjd00/deadlock-sdk/issues"
+  },
+  "funding": "https://github.com/sponsors/justinjd00",
+  "keywords": [
+    "deadlock",
+    "valve",
+    "deadlock-api",
+    "sdk",
+    "api-client",
+    "typescript",
+    "steam",
+    "steamid",
+    "tier-list",
+    "react-hooks",
+    "cli",
+    "esports",
+    "game-stats"
+  ],
+  "author": "Justin Dewitz (https://github.com/justinjd00)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.18.5",
+    "@eslint/js": "^10.0.1",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^10.14.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "jsdom": "^30.1.3",
+    "prettier": "^3.9.10",
+    "publint": "^0.3.25",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsup": "^9.0.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
