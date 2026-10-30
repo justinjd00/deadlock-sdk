@@ -1,0 +1,748 @@
+[
+ {
+  "id": 1,
+  "class_name": "hero_inferno",
+  "name": "Infernus",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/inferno_card.png"
+  }
+ },
+ {
+  "id": 2,
+  "class_name": "hero_gigawatt",
+  "name": "Seven",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/gigawatt_card.png"
+  }
+ },
+ {
+  "id": 3,
+  "class_name": "hero_hornet",
+  "name": "Vindicta",
+  "hero_type": "marksman",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/hornet_card.png"
+  }
+ },
+ {
+  "id": 4,
+  "class_name": "hero_ghost",
+  "name": "Lady Geist",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/spectre_card.png"
+  }
+ },
+ {
+  "id": 6,
+  "class_name": "hero_atlas",
+  "name": "Abrams",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bull_card.png"
+  }
+ },
+ {
+  "id": 7,
+  "class_name": "hero_wraith",
+  "name": "Wraith",
+  "hero_type": "marksman",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/wraith_card.png"
+  }
+ },
+ {
+  "id": 8,
+  "class_name": "hero_forge",
+  "name": "McGinnis",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/engineer_card.png"
+  }
+ },
+ {
+  "id": 10,
+  "class_name": "hero_chrono",
+  "name": "Paradox",
+  "hero_type": "marksman",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chrono_card.png"
+  }
+ },
+ {
+  "id": 11,
+  "class_name": "hero_dynamo",
+  "name": "Dynamo",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/sumo_card.png"
+  }
+ },
+ {
+  "id": 12,
+  "class_name": "hero_kelvin",
+  "name": "Kelvin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kelvin_card.png"
+  }
+ },
+ {
+  "id": 13,
+  "class_name": "hero_haze",
+  "name": "Haze",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/haze_card.png"
+  }
+ },
+ {
+  "id": 14,
+  "class_name": "hero_astro",
+  "name": "Holliday",
+  "hero_type": "marksman",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/astro_card.png"
+  }
+ },
+ {
+  "id": 15,
+  "class_name": "hero_bebop",
+  "name": "Bebop",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bebop_card.png"
+  }
+ },
+ {
+  "id": 16,
+  "class_name": "hero_nano",
+  "name": "Calico",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nano_card.png"
+  }
+ },
+ {
+  "id": 17,
+  "class_name": "hero_orion",
+  "name": "Grey Talon",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/archer_card.png"
+  }
+ },
+ {
+  "id": 18,
+  "class_name": "hero_krill",
+  "name": "Mo & Krill",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/digger_card.png"
+  }
+ },
+ {
+  "id": 19,
+  "class_name": "hero_shiv",
+  "name": "Shiv",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/shiv_card.png"
+  }
+ },
+ {
+  "id": 20,
+  "class_name": "hero_tengu",
+  "name": "Ivy",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/tengu_card.png"
+  }
+ },
+ {
+  "id": 21,
+  "class_name": "hero_kali",
+  "name": "Kali",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kali_card.png"
+  }
+ },
+ {
+  "id": 25,
+  "class_name": "hero_warden",
+  "name": "Warden",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/warden_card.png"
+  }
+ },
+ {
+  "id": 27,
+  "class_name": "hero_yamato",
+  "name": "Yamato",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/yamato_card.png"
+  }
+ },
+ {
+  "id": 31,
+  "class_name": "hero_lash",
+  "name": "Lash",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/lash_card.png"
+  }
+ },
+ {
+  "id": 35,
+  "class_name": "hero_viscous",
+  "name": "Viscous",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/viscous_card.png"
+  }
+ },
+ {
+  "id": 38,
+  "class_name": "hero_gunslinger",
+  "name": "Gunslinger",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/gunslinger_sm.png"
+  }
+ },
+ {
+  "id": 39,
+  "class_name": "hero_yakuza",
+  "name": "The Boss",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/yakuza_sm.png"
+  }
+ },
+ {
+  "id": 48,
+  "class_name": "hero_wrecker",
+  "name": "Wrecker",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/wrecker_card.png"
+  }
+ },
+ {
+  "id": 49,
+  "class_name": "hero_rutger",
+  "name": "Rutger",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/rutger_card.png"
+  }
+ },
+ {
+  "id": 50,
+  "class_name": "hero_synth",
+  "name": "Pocket",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/synth_card.png"
+  }
+ },
+ {
+  "id": 51,
+  "class_name": "hero_thumper",
+  "name": "Thumper",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/thumper_sm.png"
+  }
+ },
+ {
+  "id": 52,
+  "class_name": "hero_mirage",
+  "name": "Mirage",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/mirage_card.png"
+  }
+ },
+ {
+  "id": 53,
+  "class_name": "hero_slork",
+  "name": "Fathom",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/slork_card.png"
+  }
+ },
+ {
+  "id": 54,
+  "class_name": "hero_cadence",
+  "name": "Cadence",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/cadence_sm.png"
+  }
+ },
+ {
+  "id": 56,
+  "class_name": "hero_bomber",
+  "name": "Bomber",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {}
+ },
+ {
+  "id": 57,
+  "class_name": "hero_shieldguy",
+  "name": "Shield Guy",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {}
+ },
+ {
+  "id": 58,
+  "class_name": "hero_viper",
+  "name": "Vyper",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kali_card.png"
+  }
+ },
+ {
+  "id": 59,
+  "class_name": "hero_vandal",
+  "name": "Vandal",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/vandal_card.png"
+  }
+ },
+ {
+  "id": 60,
+  "class_name": "hero_magician",
+  "name": "Sinclair",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/magician_card.png"
+  }
+ },
+ {
+  "id": 61,
+  "class_name": "hero_trapper",
+  "name": "Trapper",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/trapper_card.png"
+  }
+ },
+ {
+  "id": 62,
+  "class_name": "hero_operative",
+  "name": "Raven",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/operative_card.png"
+  }
+ },
+ {
+  "id": 63,
+  "class_name": "hero_vampirebat",
+  "name": "Mina",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/vampirebat_card.png"
+  }
+ },
+ {
+  "id": 64,
+  "class_name": "hero_drifter",
+  "name": "Drifter",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/drifter_card.png"
+  }
+ },
+ {
+  "id": 65,
+  "class_name": "hero_priest",
+  "name": "Venator",
+  "hero_type": "marksman",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/priest_card.png"
+  }
+ },
+ {
+  "id": 66,
+  "class_name": "hero_frank",
+  "name": "Victor",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/frank_card.png"
+  }
+ },
+ {
+  "id": 67,
+  "class_name": "hero_bookworm",
+  "name": "Paige",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bookworm_card.png"
+  }
+ },
+ {
+  "id": 68,
+  "class_name": "hero_boho",
+  "name": "Boho",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {}
+ },
+ {
+  "id": 69,
+  "class_name": "hero_doorman",
+  "name": "The Doorman",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/doorman_card.png"
+  }
+ },
+ {
+  "id": 70,
+  "class_name": "hero_skyrunner",
+  "name": "Skyrunner",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/skyrunner_card.png"
+  }
+ },
+ {
+  "id": 71,
+  "class_name": "hero_swan",
+  "name": "Swan",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/swan_card.png"
+  }
+ },
+ {
+  "id": 72,
+  "class_name": "hero_punkgoat",
+  "name": "Billy",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/punkgoat_card.png"
+  }
+ },
+ {
+  "id": 73,
+  "class_name": "hero_druid",
+  "name": "Druid",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/druid_card.png"
+  }
+ },
+ {
+  "id": 74,
+  "class_name": "hero_graf",
+  "name": "Graf",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/graf_card.png"
+  }
+ },
+ {
+  "id": 75,
+  "class_name": "hero_fortuna",
+  "name": "Fortuna",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/fortuna_card.png"
+  }
+ },
+ {
+  "id": 76,
+  "class_name": "hero_necro",
+  "name": "Graves",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/necro_card.png"
+  }
+ },
+ {
+  "id": 77,
+  "class_name": "hero_fencer",
+  "name": "Apollo",
+  "hero_type": "assassin",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/fencer_card.png"
+  }
+ },
+ {
+  "id": 78,
+  "class_name": "hero_deadpack",
+  "name": "Deadman Danny",
+  "hero_type": "marksman",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/deadpack_card.png"
+  }
+ },
+ {
+  "id": 79,
+  "class_name": "hero_familiar",
+  "name": "Rem",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/familiar_card.png"
+  }
+ },
+ {
+  "id": 80,
+  "class_name": "hero_werewolf",
+  "name": "Silver",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/werewolf_card.png"
+  }
+ },
+ {
+  "id": 81,
+  "class_name": "hero_unicorn",
+  "name": "Celeste",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/unicorn_card.png"
+  }
+ },
+ {
+  "id": 82,
+  "class_name": "hero_opera",
+  "name": "Opera",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {}
+ },
+ {
+  "id": 83,
+  "class_name": "hero_testhero",
+  "name": "hero_testhero",
+  "hero_type": "assassin",
+  "player_selectable": false,
+  "disabled": true,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nano_card.png"
+  }
+ },
+ {
+  "id": 84,
+  "class_name": "hero_ratking",
+  "name": "Rat King",
+  "hero_type": "brawler",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/ratking_card.png"
+  }
+ },
+ {
+  "id": 85,
+  "class_name": "hero_chessmaster",
+  "name": "Solomon",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chessmaster_card.png"
+  }
+ },
+ {
+  "id": 86,
+  "class_name": "hero_artist",
+  "name": "Violet",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/artist_card.png"
+  }
+ },
+ {
+  "id": 87,
+  "class_name": "hero_nurse",
+  "name": "Nurse Harrow",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": false,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nurse_card.png"
+  }
+ },
+ {
+  "id": 88,
+  "class_name": "hero_baba",
+  "name": "Baba",
+  "hero_type": "mystic",
+  "player_selectable": true,
+  "disabled": false,
+  "in_development": true,
+  "images": {
+   "icon_hero_card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/baba_card.png"
+  }
+ }
+]

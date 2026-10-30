@@ -1,0 +1,132 @@
+[
+ {
+  "tier": 0,
+  "name": "Obscurus",
+  "color": "#333333",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank00_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank00_lg.webp"
+  }
+ },
+ {
+  "tier": 1,
+  "name": "Initiate",
+  "color": "#6A3E1E",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank01_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank01_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/1/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/1/5/image"
+  }
+ },
+ {
+  "tier": 2,
+  "name": "Seeker",
+  "color": "#882355",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank02_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank02_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/2/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/2/5/image"
+  }
+ },
+ {
+  "tier": 3,
+  "name": "Acolyte",
+  "color": "#5C6DAB",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank03_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank03_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/3/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/3/5/image"
+  }
+ },
+ {
+  "tier": 4,
+  "name": "Sentinel",
+  "color": "#719C47",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank04_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank04_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/4/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/4/5/image"
+  }
+ },
+ {
+  "tier": 5,
+  "name": "Mystic",
+  "color": "#DDA326",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank05_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank05_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/5/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/5/5/image"
+  }
+ },
+ {
+  "tier": 6,
+  "name": "Ritualist",
+  "color": "#EE4F57",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank06_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank06_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/6/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/6/5/image"
+  }
+ },
+ {
+  "tier": 7,
+  "name": "Emissary",
+  "color": "#B47FEB",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank07_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank07_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/7/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/7/5/image"
+  }
+ },
+ {
+  "tier": 8,
+  "name": "Oracle",
+  "color": "#955138",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank08_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank08_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/8/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/8/5/image"
+  }
+ },
+ {
+  "tier": 9,
+  "name": "Phantom",
+  "color": "#7C7C7C",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank09_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank09_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/9/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/9/5/image"
+  }
+ },
+ {
+  "tier": 10,
+  "name": "Ascendant",
+  "color": "#C39751",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank10_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank10_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/10/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/10/5/image"
+  }
+ },
+ {
+  "tier": 11,
+  "name": "Eternus",
+  "color": "#5CE9A9",
+  "images": {
+   "large": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank11_lg.png",
+   "large_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/ranks/rank11_lg.webp",
+   "large_subrank1": "https://api.deadlock-api.com/v1/assets/ranks/11/1/image",
+   "large_subrank5": "https://api.deadlock-api.com/v1/assets/ranks/11/5/image"
+  }
+ }
+]

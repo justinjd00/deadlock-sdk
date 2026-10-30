@@ -1,0 +1,163 @@
+{
+ "entries": [
+  {
+   "account_name": "Player 1",
+   "possible_account_ids": [
+    1012
+   ],
+   "rank": 1,
+   "top_hero_ids": [
+    18
+   ]
+  },
+  {
+   "account_name": "Player 2",
+   "possible_account_ids": [
+    1013
+   ],
+   "rank": 2,
+   "top_hero_ids": [
+    58
+   ]
+  },
+  {
+   "account_name": "Player 3",
+   "possible_account_ids": [
+    1014,
+    1015,
+    1016,
+    1001,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037
+   ],
+   "rank": 3,
+   "top_hero_ids": []
+  },
+  {
+   "account_name": "Player 4",
+   "possible_account_ids": [
+    1038,
+    1039,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059
+   ],
+   "rank": 4,
+   "top_hero_ids": []
+  },
+  {
+   "account_name": "Player 5",
+   "possible_account_ids": [
+    1060,
+    1061,
+    1062
+   ],
+   "rank": 5,
+   "top_hero_ids": []
+  },
+  {
+   "account_name": "Player 6",
+   "possible_account_ids": [
+    1063
+   ],
+   "rank": 6,
+   "top_hero_ids": [
+    13
+   ]
+  },
+  {
+   "account_name": "Player 7",
+   "possible_account_ids": [
+    1064,
+    1065
+   ],
+   "rank": 6,
+   "top_hero_ids": [
+    60
+   ]
+  },
+  {
+   "account_name": "Player 8",
+   "possible_account_ids": [
+    1066,
+    1067,
+    1068,
+    1069,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074
+   ],
+   "rank": 8,
+   "top_hero_ids": []
+  },
+  {
+   "account_name": "Player 9",
+   "possible_account_ids": [
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1084,
+    1085
+   ],
+   "rank": 9,
+   "top_hero_ids": [
+    7
+   ]
+  },
+  {
+   "account_name": "Player 10",
+   "possible_account_ids": [
+    1086,
+    1087,
+    1088,
+    1089
+   ],
+   "rank": 10,
+   "top_hero_ids": []
+  }
+ ]
+}

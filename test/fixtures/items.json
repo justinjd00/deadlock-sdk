@@ -1,0 +1,871 @@
+[
+ {
+  "id": 1548066885,
+  "class_name": "upgrade_clip_size",
+  "name": "Extended Magazine",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1009965641,
+  "class_name": "upgrade_non_player_bonus",
+  "name": "Monster Rounds",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 709540378,
+  "class_name": "upgrade_non_player_bonus_sacrifice",
+  "name": "Cultist Sacrifice",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1248737459,
+  "class_name": "upgrade_ammo_scavenger",
+  "name": "Ammo Scavenger",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 811521119,
+  "class_name": "upgrade_chain_lightning",
+  "name": "Tesla Bullets",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 710436191,
+  "class_name": "upgrade_capacitor",
+  "name": "Capacitor",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 4,
+  "shopable": true,
+  "cost": 6400
+ },
+ {
+  "id": 2064029594,
+  "class_name": "upgrade_pristine_emblem",
+  "name": "Opening Rounds",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1544322593,
+  "class_name": "upgrade_stabilizer",
+  "name": "upgrade_stabilizer",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 3077079169,
+  "class_name": "upgrade_high_velocity_mag",
+  "name": "High-Velocity Rounds",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1437614329,
+  "class_name": "upgrade_lifestrike_gauntlets",
+  "name": "Melee Lifesteal",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 4204808176,
+  "class_name": "upgrade_melee_rebuttal",
+  "name": "Rebuttal",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1414025773,
+  "class_name": "upgrade_counterspell",
+  "name": "Counterspell",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 3791587546,
+  "class_name": "upgrade_weighted_shots",
+  "name": "Weighted Shots",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1342610602,
+  "class_name": "upgrade_close_range",
+  "name": "Close Quarters",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 3331811235,
+  "class_name": "upgrade_long_range",
+  "name": "Long Range",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1889400890,
+  "class_name": "upgrade_small_attack_speed",
+  "name": "upgrade_small_attack_speed",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 1414319208,
+  "class_name": "upgrade_berserker",
+  "name": "Berserker",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1282141666,
+  "class_name": "upgrade_siphon_bullets",
+  "name": "Siphon Bullets",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 4,
+  "shopable": true,
+  "cost": 6400
+ },
+ {
+  "id": 2010028405,
+  "class_name": "upgrade_headshot_booster",
+  "name": "Headshot Booster",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1770441818,
+  "class_name": "upgrade_headshot_booster2",
+  "name": "Weakening Headshot",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2152872419,
+  "class_name": "upgrade_sharpshooter",
+  "name": "Sharpshooter",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 4053935515,
+  "class_name": "upgrade_headhunter",
+  "name": "Headhunter",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 395867183,
+  "class_name": "upgrade_crackshot",
+  "name": "Mystic Shot",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 3633614685,
+  "class_name": "upgrade_health",
+  "name": "Extra Health",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1575167590,
+  "class_name": "upgrade_health_regen_1",
+  "name": "upgrade_health_regen_1",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 790496977,
+  "class_name": "upgrade_double_jump",
+  "name": "upgrade_double_jump",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 3731635960,
+  "class_name": "upgrade_reduce_debuff_duration",
+  "name": "Dispel Magic",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 2163598980,
+  "class_name": "upgrade_tech_purge",
+  "name": "Spirit Resilience",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1378931225,
+  "class_name": "upgrade_metal_skin",
+  "name": "Metal Skin",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 2566692615,
+  "class_name": "upgrade_healing_booster",
+  "name": "Healing Booster",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 3585132399,
+  "class_name": "upgrade_chonky",
+  "name": "Fortitude",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 3399065363,
+  "class_name": "upgrade_sprint_booster",
+  "name": "Sprint Boots",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 3074274290,
+  "class_name": "upgrade_trophy_collector",
+  "name": "Trophy Collector",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2447176615,
+  "class_name": "upgrade_cardio_calibrator",
+  "name": "Enduring Speed",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 334300056,
+  "class_name": "upgrade_superior_stamina",
+  "name": "Stamina Mastery",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 668299740,
+  "class_name": "upgrade_rapid_rounds",
+  "name": "Rapid Rounds",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 4139877411,
+  "class_name": "upgrade_improved_stamina",
+  "name": "Extra Stamina",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 2481177645,
+  "class_name": "upgrade_bullet_armor_reduction_aura",
+  "name": "Hunter's Aura",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1672893796,
+  "class_name": "upgrade_grit",
+  "name": "Grit",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 112198670,
+  "class_name": "upgrade_spirit_bubble",
+  "name": "Spirit Shielding",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1235347618,
+  "class_name": "upgrade_regenerating_bullet_shield",
+  "name": "Battle Vest",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 3970837787,
+  "class_name": "upgrade_magic_shield",
+  "name": "Enchanter's Emblem",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 968099481,
+  "class_name": "upgrade_improved_spirit",
+  "name": "Extra Spirit",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1439347412,
+  "class_name": "upgrade_mystic_regeneration",
+  "name": "Mystic Regeneration",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 7409189,
+  "class_name": "upgrade_soaring_spirit",
+  "name": "Improved Spirit",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1193964439,
+  "class_name": "upgrade_tech_range",
+  "name": "Greater Expansion",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 754480263,
+  "class_name": "upgrade_magic_reach",
+  "name": "Mystic Expansion",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 3776945997,
+  "class_name": "upgrade_extra_charge",
+  "name": "Extra Charge",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 2645639421,
+  "class_name": "upgrade_disarm",
+  "name": "upgrade_disarm",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 2971868509,
+  "class_name": "upgrade_bullet_resist_shredder",
+  "name": "Bullet Resist Shredder",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1998374645,
+  "class_name": "upgrade_magic_burst",
+  "name": "Mystic Burst",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 2603935618,
+  "class_name": "upgrade_healbane",
+  "name": "Healbane",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 787198704,
+  "class_name": "upgrade_rapid_recharge",
+  "name": "Rapid Recharge",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 380806748,
+  "class_name": "upgrade_magic_tempo",
+  "name": "Compress Cooldown",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 3261353684,
+  "class_name": "upgrade_cooldown_reduction",
+  "name": "Superior Cooldown",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 3013879715,
+  "class_name": "upgrade_slowing_tech",
+  "name": "upgrade_slowing_tech",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 1813726886,
+  "class_name": "upgrade_containment",
+  "name": "Slowing Hex",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2922054143,
+  "class_name": "upgrade_withering_whip",
+  "name": "Rusted Barrel",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1804594021,
+  "class_name": "upgrade_rescue_beam",
+  "name": "Rescue Beam",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 395944548,
+  "class_name": "upgrade_tech_damage_pulse",
+  "name": "Torment Pulse",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1710079648,
+  "class_name": "upgrade_health_stimpak",
+  "name": "Healing Rite",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 857669956,
+  "class_name": "upgrade_guardian_ward",
+  "name": "Guardian Ward",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1932939246,
+  "class_name": "upgrade_thermal_detonator",
+  "name": "Alchemical Fire",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 3977876567,
+  "class_name": "upgrade_kinetic_sash",
+  "name": "Kinetic Dash",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2951612397,
+  "class_name": "upgrade_arcane_extension",
+  "name": "Duration Extender",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2717651715,
+  "class_name": "upgrade_imbued_duration_extender",
+  "name": "Superior Duration",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 465043967,
+  "class_name": "upgrade_acolytes_glove",
+  "name": "Spirit Strike",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 3190916303,
+  "class_name": "upgrade_spirit_snatch",
+  "name": "Spirit Snatch",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 26002154,
+  "class_name": "upgrade_melee_charge",
+  "name": "Melee Charge",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2947183272,
+  "class_name": "upgrade_resonant_healing",
+  "name": "Radiant Regeneration",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 2739107182,
+  "class_name": "upgrade_burst_fire",
+  "name": "Burst Fire",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 558396679,
+  "class_name": "upgrade_resilience",
+  "name": "Enduring Spirit",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 2829638276,
+  "class_name": "upgrade_endurance",
+  "name": "Extra Regen",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 1292979587,
+  "class_name": "upgrade_magic_storm",
+  "name": "Surge of Power",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 84321454,
+  "class_name": "upgrade_quick_silver",
+  "name": "Quicksilver Reload",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 4104549924,
+  "class_name": "upgrade_blitz_bullets",
+  "name": "Swift Striker",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 865958998,
+  "class_name": "upgrade_veil_walker",
+  "name": "Veil Walker",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 3,
+  "shopable": true,
+  "cost": 3200
+ },
+ {
+  "id": 1644605047,
+  "class_name": "upgrade_vex_barrier",
+  "name": "Reactive Barrier",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 3862866912,
+  "class_name": "upgrade_medic_bullets",
+  "name": "Restorative Shot",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 2356412290,
+  "class_name": "upgrade_titan_round",
+  "name": "Titanic Magazine",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 381961617,
+  "class_name": "upgrade_active_reload",
+  "name": "Active Reload",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 138320648,
+  "class_name": "upgrade_heal_on_level",
+  "name": "Patron's Healing",
+  "type": "upgrade",
+  "item_slot_type": "vitality",
+  "item_tier": 1,
+  "shopable": false,
+  "cost": 800
+ },
+ {
+  "id": 98582110,
+  "class_name": "upgrade_weapon_backstabber",
+  "name": "Stalker",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 1763073141,
+  "class_name": "upgrade_rechargingbullets",
+  "name": "Recharging Rush",
+  "type": "upgrade",
+  "item_slot_type": "weapon",
+  "item_tier": 2,
+  "shopable": true,
+  "cost": 1600
+ },
+ {
+  "id": 2462046703,
+  "class_name": "upgrade_goose_egg",
+  "name": "Golden Goose Egg",
+  "type": "upgrade",
+  "item_slot_type": "spirit",
+  "item_tier": 1,
+  "shopable": true,
+  "cost": 800
+ },
+ {
+  "id": 2521299219,
+  "class_name": "ability_golden_idol",
+  "name": "Soul Urn",
+  "type": "ability"
+ },
+ {
+  "id": 2641680935,
+  "class_name": "ability_item_pickup_effects",
+  "name": "ability_item_pickup_effects",
+  "type": "ability"
+ },
+ {
+  "id": 2573821048,
+  "class_name": "citadel_ability_zip_line",
+  "name": "Knocked off Zipline",
+  "type": "ability",
+  "hero": 1
+ }
+]

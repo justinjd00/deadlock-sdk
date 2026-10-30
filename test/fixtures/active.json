@@ -1,0 +1,296 @@
+[
+ {
+  "start_time": 1793402729,
+  "winning_team": null,
+  "winning_team_parsed": null,
+  "match_id": 128071809,
+  "players": [
+   {
+    "account_id": 1090,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 3
+   },
+   {
+    "account_id": 1091,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 12
+   },
+   {
+    "account_id": 1092,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 85
+   },
+   {
+    "account_id": 1093,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 81
+   },
+   {
+    "account_id": 1094,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 86
+   },
+   {
+    "account_id": 1095,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 31
+   },
+   {
+    "account_id": 1096,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 35
+   },
+   {
+    "account_id": 1097,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 65
+   }
+  ],
+  "lobby_id": 102145818399652430,
+  "game_mode_version": 1,
+  "net_worth_team_0": 89600,
+  "net_worth_team_1": 89600,
+  "duration_s": null,
+  "spectators": 1,
+  "open_spectator_slots": 10,
+  "objectives_mask_team0": 65093,
+  "objectives_mask_team1": 65093,
+  "match_mode": 1,
+  "match_mode_parsed": "Unranked",
+  "game_mode": 4,
+  "game_mode_parsed": "KECitadelGameModeStreetBrawl",
+  "match_score": 2550,
+  "region_mode": 1,
+  "region_mode_parsed": "europe",
+  "compat_version": 6833,
+  "low_pri_pool": false,
+  "team_stats": [
+   {
+    "team": 0,
+    "team_parsed": "Team0",
+    "net_worth": 89600,
+    "objectives_mask": 65093,
+    "brawl_score": 0
+   },
+   {
+    "team": 1,
+    "team_parsed": "Team1",
+    "net_worth": 89600,
+    "objectives_mask": 65093,
+    "brawl_score": 2
+   }
+  ]
+ },
+ {
+  "start_time": 1793403221,
+  "winning_team": null,
+  "winning_team_parsed": null,
+  "match_id": 128076609,
+  "players": [
+   {
+    "account_id": 1098,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 35
+   },
+   {
+    "account_id": 1099,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 50
+   },
+   {
+    "account_id": 1100,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 13
+   },
+   {
+    "account_id": 1101,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 84
+   },
+   {
+    "account_id": 1102,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 15
+   },
+   {
+    "account_id": 1103,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 66
+   },
+   {
+    "account_id": 1104,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 87
+   },
+   {
+    "account_id": 1105,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 78
+   }
+  ],
+  "lobby_id": 102145818399657340,
+  "game_mode_version": 1,
+  "net_worth_team_0": 22400,
+  "net_worth_team_1": 22400,
+  "duration_s": null,
+  "spectators": 3,
+  "open_spectator_slots": 10,
+  "objectives_mask_team0": 65093,
+  "objectives_mask_team1": 65093,
+  "match_mode": 1,
+  "match_mode_parsed": "Unranked",
+  "game_mode": 4,
+  "game_mode_parsed": "KECitadelGameModeStreetBrawl",
+  "match_score": 2550,
+  "region_mode": 0,
+  "region_mode_parsed": "row",
+  "compat_version": 6833,
+  "low_pri_pool": false,
+  "team_stats": [
+   {
+    "team": 0,
+    "team_parsed": "Team0",
+    "net_worth": 22400,
+    "objectives_mask": 65093,
+    "brawl_score": 0
+   },
+   {
+    "team": 1,
+    "team_parsed": "Team1",
+    "net_worth": 22400,
+    "objectives_mask": 65093,
+    "brawl_score": 0
+   }
+  ]
+ },
+ {
+  "start_time": 1793402515,
+  "winning_team": null,
+  "winning_team_parsed": null,
+  "match_id": 128069638,
+  "players": [
+   {
+    "account_id": 1106,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 88
+   },
+   {
+    "account_id": 1107,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 2
+   },
+   {
+    "account_id": 1108,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 3
+   },
+   {
+    "account_id": 1109,
+    "team": 0,
+    "team_parsed": "Team0",
+    "abandoned": null,
+    "hero_id": 12
+   },
+   {
+    "account_id": 1110,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 31
+   },
+   {
+    "account_id": 1111,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 84
+   },
+   {
+    "account_id": 1112,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 13
+   },
+   {
+    "account_id": 1113,
+    "team": 1,
+    "team_parsed": "Team1",
+    "abandoned": null,
+    "hero_id": 78
+   }
+  ],
+  "lobby_id": 102145818399650200,
+  "game_mode_version": 1,
+  "net_worth_team_0": 178000,
+  "net_worth_team_1": 192000,
+  "duration_s": null,
+  "spectators": 3,
+  "open_spectator_slots": 10,
+  "objectives_mask_team0": 65093,
+  "objectives_mask_team1": 65093,
+  "match_mode": 1,
+  "match_mode_parsed": "Unranked",
+  "game_mode": 4,
+  "game_mode_parsed": "KECitadelGameModeStreetBrawl",
+  "match_score": 2550,
+  "region_mode": 0,
+  "region_mode_parsed": "row",
+  "compat_version": 6833,
+  "low_pri_pool": false,
+  "team_stats": [
+   {
+    "team": 0,
+    "team_parsed": "Team0",
+    "net_worth": 178000,
+    "objectives_mask": 65093,
+    "brawl_score": 2
+   },
+   {
+    "team": 1,
+    "team_parsed": "Team1",
+    "net_worth": 192000,
+    "objectives_mask": 65093,
+    "brawl_score": 2
+   }
+  ]
+ }
+]

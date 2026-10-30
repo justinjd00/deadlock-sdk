@@ -1,0 +1,53 @@
+[
+ {
+  "title": "09-29-2026",
+  "pub_date": "2026-10-15T03:12:00Z",
+  "link": "https://forums.playdeadlock.com/threads/09-29-2026.166726/",
+  "guid": {
+   "is_perma_link": false,
+   "text": "urn:xenforo:thread:166726"
+  },
+  "author": "invalid@example.com (Yoshi)",
+  "category": {
+   "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+   "text": "Changelog"
+  },
+  "dc_creator": "Yoshi",
+  "content_encoded": "<div class=\"bbWrapper\"><div class=\"bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink\"\n\t\tdata-unfurl=\"true\" data-result-id=\"11817\" data-result-token=\"1793399312:e221d8d78ecce28b7314e9344f7c52db08c551b291129f95dc3a43896650d212\" data-url=\"https://store.steampowered.com/news/app/1422450/view/694273194214819790\" data-host=\"store.steampowered.com\" data-pending=\"false\">\n\t\t<div class=\"contentRow\">\n\t\t\t\n\t\t\t\t<div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\">\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https://clan.akamai.steamstatic.com/images/45164767/58160deebbd1c61d525f4e516690161858d1e95f.png\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-image\" data-onerror=\"hide-parent\"/>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"contentRow-main\">\n\t\t\t\t<h3 class=\"contentRow-header js-unfurl-title\">\n\t\t\t\t\t<a href=\"https://store.steampowered.com/news/app/1422450/view/694273194214819790\"\n\t\t\t\t\t\tclass=\"link link--external fauxBlockLink-blockLink\"\n\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\trel=\"noopener\"\n\t\t\t\t\t\tdata-proxy-href=\"\">\n\t\t\t\t\t\tDeadlock - City Never Sleeps - Steam News\n\t\t\t\t\t</a>\n\t\t\t\t</h3>\n\n\t\t\t\t<div class=\"contentRow-snippet js-unfurl-desc\">The Cursed Apple is ever changing, and these streets are nothing like you remember.</div>\n\n\t\t\t\t<div class=\"contentRow-minor contentRow-minor--hideLinks\">\n\t\t\t\t\t<span class=\"js-unfurl-favicon\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"https://store.steampowered.com/favicon.ico\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-icon\"\n\t\t\t\t\t\t\t\tdata-onerror=\"hide-parent\"/>\n\t\t\t\t\t\t\n\t\t\t\t\t</span>\n\t\t\t\t\tstore.steampowered.com\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div></div>",
+  "slash_comments": "3"
+ },
+ {
+  "title": "09-16-2026 Update",
+  "pub_date": "2026-09-16T22:41:46Z",
+  "link": "https://forums.playdeadlock.com/threads/09-16-2026-update.162572/",
+  "guid": {
+   "is_perma_link": false,
+   "text": "urn:xenforo:thread:162572"
+  },
+  "author": "invalid@example.com (Yoshi)",
+  "category": {
+   "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+   "text": "Changelog"
+  },
+  "dc_creator": "Yoshi",
+  "content_encoded": "<div class=\"bbWrapper\"><div class=\"bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink\"\n\t\tdata-unfurl=\"true\" data-result-id=\"11569\" data-result-token=\"1793399312:3d21bdd94d58d74679212fb350ce18e9d36aaaa73bb8dd273cd8c410d605da5f\" data-url=\"https://store.steampowered.com/news/app/1422450/view/698776157349216434\" data-host=\"store.steampowered.com\" data-pending=\"false\">\n\t\t<div class=\"contentRow\">\n\t\t\t\n\t\t\t\t<div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\">\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https://clan.akamai.steamstatic.com/images/45164767/568ff640318c8a81e2b5b4a22bf29e100ee144d9.png\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-image\" data-onerror=\"hide-parent\"/>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"contentRow-main\">\n\t\t\t\t<h3 class=\"contentRow-header js-unfurl-title\">\n\t\t\t\t\t<a href=\"https://store.steampowered.com/news/app/1422450/view/698776157349216434\"\n\t\t\t\t\t\tclass=\"link link--external fauxBlockLink-blockLink\"\n\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\trel=\"noopener\"\n\t\t\t\t\t\tdata-proxy-href=\"\">\n\t\t\t\t\t\tDeadlock -  Minor Update - 09-16-2026 - Steam News\n\t\t\t\t\t</a>\n\t\t\t\t</h3>\n\n\t\t\t\t<div class=\"contentRow-snippet js-unfurl-desc\">[ General ] - Unstable Rift comeback resist max values now scale over the course of the game. Previously the max values were 35%. Now it is 10% + 1% per minute (around ~20% for the first one), with an upper limit of 40% at 30 minutes. - Removed a fixed amount of extra bonus souls you would get...</div>\n\n\t\t\t\t<div class=\"contentRow-minor contentRow-minor--hideLinks\">\n\t\t\t\t\t<span class=\"js-unfurl-favicon\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"https://store.steampowered.com/favicon.ico\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-icon\"\n\t\t\t\t\t\t\t\tdata-onerror=\"hide-parent\"/>\n\t\t\t\t\t\t\n\t\t\t\t\t</span>\n\t\t\t\t\tstore.steampowered.com\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div></div>",
+  "slash_comments": "0"
+ },
+ {
+  "title": "08-22-2026 Update",
+  "pub_date": "2026-09-16T22:41:28Z",
+  "link": "https://forums.playdeadlock.com/threads/08-22-2026-update.162571/",
+  "guid": {
+   "is_perma_link": false,
+   "text": "urn:xenforo:thread:162571"
+  },
+  "author": "invalid@example.com (Yoshi)",
+  "category": {
+   "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+   "text": "Changelog"
+  },
+  "dc_creator": "Yoshi",
+  "content_encoded": "<div class=\"bbWrapper\"><div class=\"bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink\"\n\t\tdata-unfurl=\"true\" data-result-id=\"11580\" data-result-token=\"1793399312:862f0620c0d11545f341642ee91119f002d6fa095cfe139e482d289b94e56106\" data-url=\"https://store.steampowered.com/news/app/1422450/view/676255623445218601\" data-host=\"store.steampowered.com\" data-pending=\"false\">\n\t\t<div class=\"contentRow\">\n\t\t\t\n\t\t\t\t<div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\">\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https://clan.akamai.steamstatic.com/images/45164767/568ff640318c8a81e2b5b4a22bf29e100ee144d9.png\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-image\" data-onerror=\"hide-parent\"/>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"contentRow-main\">\n\t\t\t\t<h3 class=\"contentRow-header js-unfurl-title\">\n\t\t\t\t\t<a href=\"https://store.steampowered.com/news/app/1422450/view/676255623445218601\"\n\t\t\t\t\t\tclass=\"link link--external fauxBlockLink-blockLink\"\n\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\trel=\"noopener\"\n\t\t\t\t\t\tdata-proxy-href=\"\">\n\t\t\t\t\t\tDeadlock -  Minor Update - 08-22-2026 - Steam News\n\t\t\t\t\t</a>\n\t\t\t\t</h3>\n\n\t\t\t\t<div class=\"contentRow-snippet js-unfurl-desc\">- Radiant Regeneration: Heal on cast reduced from 70 to 65 - Restorative Locket: Spirit Resistance reduced from 10% to 8% - Celeste: Dazzling Trick cooldown increased from 32s to 34s - Celeste: Dazzling Trick T2 barrier rescaled from &quot;+80 and +0.7 scaling&quot; to &quot;+70 and +0.76&quot; - Celeste: Dazzling...</div>\n\n\t\t\t\t<div class=\"contentRow-minor contentRow-minor--hideLinks\">\n\t\t\t\t\t<span class=\"js-unfurl-favicon\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"https://store.steampowered.com/favicon.ico\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-icon\"\n\t\t\t\t\t\t\t\tdata-onerror=\"hide-parent\"/>\n\t\t\t\t\t\t\n\t\t\t\t\t</span>\n\t\t\t\t\tstore.steampowered.com\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div></div>",
+  "slash_comments": "0"
+ }
+]
