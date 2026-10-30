@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="t d">
+  <title id="t">deadlock-sdk architecture</title>
+  <desc id="d">Your app, React hooks and the CLI use resources and the typed API. They share a cache, then an HTTP layer with retries and rate limit throttling, which talks to the Deadlock API.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .box { fill: #15130f; stroke: #3a3326; }
+    .ttl { fill: #fbf6ea; font-weight: 700; font-size: 15px; }
+    .sub { fill: #a99d85; font-size: 12.5px; }
+    .flow { stroke: #e8b35c; stroke-width: 1.6; fill: none; stroke-dasharray: 5 6; animation: dash 1.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -22; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+  <rect width="1000" height="430" rx="16" fill="#0d0c0a"/>
+  <rect x="10" y="10" width="980" height="410" rx="12" fill="none" stroke="#e8b35c" stroke-opacity=".22"/>
+
+  <!-- Consumers -->
+  <g class="sans">
+    <rect class="box" x="40" y="40" width="280" height="64" rx="10"/>
+    <text x="60" y="68" class="ttl">Your app</text>
+    <text x="60" y="88" class="sub mono">createDeadlockClient()</text>
+
+    <rect class="box" x="360" y="40" width="280" height="64" rx="10"/>
+    <text x="380" y="68" class="ttl">React hooks</text>
+    <text x="380" y="88" class="sub mono">usePlayerSummary, useTierList, ...</text>
+
+    <rect class="box" x="680" y="40" width="280" height="64" rx="10"/>
+    <text x="700" y="68" class="ttl">CLI</text>
+    <text x="700" y="88" class="sub mono">deadlock player · tiers · match</text>
+  </g>
+
+  <path class="flow" d="M180 104v32M500 104v32M820 104v32"/>
+
+  <!-- Resources + typed API -->
+  <g class="sans">
+    <rect x="40" y="136" width="600" height="86" rx="10" fill="#1b170f" stroke="#e8b35c" stroke-opacity=".55"/>
+    <text x="60" y="164" class="ttl">Resources</text>
+    <text x="60" y="186" class="sub mono">players · matches · heroes · items · ranks · leaderboard</text>
+    <text x="60" y="206" class="sub mono">builds · patches · analytics · sql · search</text>
+
+    <rect x="660" y="136" width="300" height="86" rx="10" fill="#101820" stroke="#7fb2ff" stroke-opacity=".55"/>
+    <text x="680" y="164" class="ttl">Typed API</text>
+    <text x="680" y="186" class="sub mono">dl.api.get('/v1/...')</text>
+    <text x="680" y="206" class="sub">every endpoint, generated from OpenAPI</text>
+  </g>
+
+  <path class="flow" d="M340 222v26M810 222v26"/>
+
+  <!-- Cache -->
+  <g class="sans">
+    <rect class="box" x="40" y="248" width="920" height="54" rx="10"/>
+    <text x="60" y="280" class="ttl">Cache</text>
+    <text x="130" y="280" class="sub">LRU per resource TTL (assets 1h, players 2m, finished matches 24h, live 20s) · stale-while-revalidate · pluggable store</text>
+  </g>
+
+  <path class="flow" d="M500 302v24"/>
+
+  <!-- HTTP -->
+  <g class="sans">
+    <rect class="box" x="40" y="326" width="920" height="54" rx="10"/>
+    <text x="60" y="358" class="ttl">HTTP</text>
+    <text x="120" y="358" class="sub">retries with jitter · Retry-After · RateLimit throttle · 504 never retried · timeouts · AbortSignal · de-dup</text>
+  </g>
+
+  <g class="mono" font-size="12.5">
+    <text x="500" y="404" text-anchor="middle" fill="#e8b35c">api.deadlock-api.com</text>
+  </g>
+</svg>

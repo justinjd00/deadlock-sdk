@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm test
+      - name: Package checks (publint, are-the-types-wrong)
+        if: matrix.node == 24
+        run: npm run check:package
+      - name: Publish dry run with the latest npm
+        if: matrix.node == 24
+        run: |
+          npm install -g npm@latest
+          npm run check:publish
+
+  runtime:
+    # The library itself supports Node 20+, only the dev tooling needs 22+.
+    name: Smoke test (Node 20 runtime)
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci && npm run build
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 20
+      - name: Import ESM and CJS builds
+        run: |
+          node --input-type=module -e "import { createDeadlockClient, VERSION } from './dist/index.js'; createDeadlockClient(); console.log('esm', VERSION)"
+          node -e "const { createDeadlockClient, VERSION } = require('./dist/index.cjs'); createDeadlockClient(); console.log('cjs', VERSION)"
+          node dist/cli.js --version

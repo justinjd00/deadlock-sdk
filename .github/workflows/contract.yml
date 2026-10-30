@@ -1,0 +1,51 @@
+name: API contract
+
+# The Deadlock API is community run and evolves quickly. Every week this runs
+# the SDK against the live API, and checks that the generated types still
+# match the published OpenAPI spec. A failure opens an issue.
+
+on:
+  schedule:
+    - cron: '23 5 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'contract/**'
+      - '.github/workflows/contract.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run test:contract
+      - name: Generated types match the live OpenAPI spec
+        run: npm run check:schema
+      - name: Open an issue on failure
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const title = 'Deadlock API contract check failed';
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'api-drift',
+            });
+            if (open.some((i) => i.title === title)) return;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              labels: ['api-drift'],
+              body: `The weekly contract run failed: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}\n\nIf the schema step failed, run \`npm run generate\` and check the diff. If the live tests failed, the API changed behavior.`,
+            });
