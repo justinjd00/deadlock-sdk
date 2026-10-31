@@ -84,7 +84,17 @@ jobs:
             echo "Version ${VERSION} is already on npm, skipping."
             exit 0
           fi
-          npm publish --access public --provenance
+          # `npm view` can lag behind a fresh publish, so a version that already
+          # exists is also detected from the publish error itself.
+          set +e
+          npm publish --access public --provenance 2>&1 | tee publish.log
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -ne 0 ] && grep -q "cannot publish over the previously published versions" publish.log; then
+            echo "Version ${VERSION} is already on npm, skipping."
+            exit 0
+          fi
+          exit "$status"
         env:
           # Empty when the secret is not set, then npm uses trusted publishing.
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
