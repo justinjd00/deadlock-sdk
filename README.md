@@ -37,6 +37,8 @@ await dl.matches.scoreboard(127843366); // both teams, hero and item names, KDA,
 await dl.api.get('/v1/players/{account_id}/mate-stats', { path: { account_id: 22202 } }); // anything else, typed
 ```
 
+The same SDK exists for Python (sync, async and pandas): [justinjd00/deadlock-sdk-python](https://github.com/justinjd00/deadlock-sdk-python), `pip install deadlock-sdk`.
+
 ## Live from the Deadlock API
 
 Pulled straight from the API this package talks to, refreshed hourly.
