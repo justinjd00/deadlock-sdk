@@ -7,6 +7,13 @@ updates:
     groups:
       dev-dependencies:
         dependency-type: development
+    ignore:
+      # TypeScript 7 is not supported by typescript-eslint and tsup's dts build yet.
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
+      # Types for the oldest supported runtime, bumped together with engines.node.
+      - dependency-name: '@types/node'
+        update-types: ['version-update:semver-major']
   - package-ecosystem: github-actions
     directory: /
     schedule:
